@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualMethodSeparators", "VisualMethodSeparators\VisualMethodSeparators.csproj", "{FCC80E32-823C-4991-B6C2-64537B9D8B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VmsViewportAdornment", "VmsViewportAdornment\VmsViewportAdornment.csproj", "{56E3589E-90DD-4932-96B4-C5949C02368D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC80E32-823C-4991-B6C2-64537B9D8B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC80E32-823C-4991-B6C2-64537B9D8B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC80E32-823C-4991-B6C2-64537B9D8B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC80E32-823C-4991-B6C2-64537B9D8B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E3589E-90DD-4932-96B4-C5949C02368D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E3589E-90DD-4932-96B4-C5949C02368D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E3589E-90DD-4932-96B4-C5949C02368D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E3589E-90DD-4932-96B4-C5949C02368D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
