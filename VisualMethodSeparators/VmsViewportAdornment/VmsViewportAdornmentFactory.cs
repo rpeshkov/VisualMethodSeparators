@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Utilities;
 
-namespace VmsViewportAdornment
+namespace RomanPeshkov.VisualMethodSeparators.VmsViewportAdornment
 {
     [Export(typeof(IWpfTextViewCreationListener))]
     [ContentType("csharp")]
@@ -25,7 +25,7 @@ namespace VmsViewportAdornment
 
         public void TextViewCreated(IWpfTextView textView)
         {
-            new VmsViewportAdornment(textView, ServiceProvider);
+            new RomanPeshkov.VisualMethodSeparators.VmsViewportAdornment.VmsViewportAdornment(textView, ServiceProvider);
         }
     }
 }

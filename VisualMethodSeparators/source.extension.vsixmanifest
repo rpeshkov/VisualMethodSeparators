@@ -27,6 +27,6 @@
   </References>
   <Content>
     <VsPackage>|%CurrentProject%;PkgdefProjectOutputGroup|</VsPackage>
-    <MefComponent>|VmsViewportAdornment|</MefComponent>
+    <MefComponent>|%CurrentProject%|</MefComponent>
   </Content>
 </Vsix>

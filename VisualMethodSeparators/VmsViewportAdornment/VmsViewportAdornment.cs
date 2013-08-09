@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using EnvDTE;
@@ -9,7 +8,7 @@ using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text.Formatting;
 
-namespace VmsViewportAdornment
+namespace RomanPeshkov.VisualMethodSeparators.VmsViewportAdornment
 {
     class VmsViewportAdornment
     {
@@ -25,7 +24,7 @@ namespace VmsViewportAdornment
         {
             var service = (DTE)serviceProvider.GetService(typeof(DTE));
             var properties = service.Properties["Visual Method Separators", "Global"];
-
+            
             var colorProperty = properties.Item("Color");
             var color = UIntToColor(colorProperty.Value);
 
