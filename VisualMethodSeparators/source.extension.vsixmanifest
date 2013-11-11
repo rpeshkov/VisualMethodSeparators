@@ -3,7 +3,7 @@
   <Identifier Id="85d1e607-1828-4692-a148-bfe87cad338c">
     <Name>VisualMethodSeparators</Name>
     <Author>Roman Peshkov</Author>
-    <Version>1.1</Version>
+    <Version>1.2</Version>
     <Description xml:space="preserve">Extension that shows visual separators between C# methods</Description>
     <Locale>1033</Locale>
     <License>ms-pl.txt</License>
