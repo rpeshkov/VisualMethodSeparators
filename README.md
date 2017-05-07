@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 This is an extension that adds visual separators between methods in C# code as it made in the code editor for Visual Basic.
 
